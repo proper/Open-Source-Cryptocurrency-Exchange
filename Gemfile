@@ -65,7 +65,7 @@ gem 'rack-attack', '~> 4.3.1'
 gem 'easy_table', '>= 0.0.6'
 gem 'phonelib', '~> 0.3.5'
 gem 'twilio-ruby', '~> 3.11'
-gem 'unread', github: 'peatio/unread'
+gem 'unread', github: 'gravio-net/unread'
 gem 'carrierwave', '~> 0.10.0'
 gem 'simple_captcha2', require: 'simple_captcha'
 gem 'rest-client', '~> 1.6.8'
@@ -74,7 +74,7 @@ group :development, :test do
   gem 'factory_girl_rails', '>= 4.9.0'
   gem 'faker', '~> 1.4.3'
   gem 'mina'
-  gem 'mina-slack', github: 'peatio/mina-slack'
+  gem 'mina-slack', github: 'gravio-net/mina-slack'
   gem 'meta_request', '>= 0.4.3'
   gem 'better_errors'
   gem 'binding_of_caller'
@@ -100,3 +100,4 @@ group :test do
   # but test-unit has been removed from ruby core since 2.2.0
   gem 'test-unit'
 end
+
